@@ -1,0 +1,26 @@
+.button-area{
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 320px;
+}
+
+#share-button{
+  background: rgb(170, 134, 134);
+  padding: 1em 2.4em;
+  font-size: .9em;
+  margin: 1em;
+  color: white;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#share-button:hover{
+  background-color: white;
+  border: 2px solid rgb(170, 134, 134);
+  color: rgb(170, 134, 134);
+  font-style: italic;
+}

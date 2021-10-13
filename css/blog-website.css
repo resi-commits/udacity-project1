@@ -1,0 +1,48 @@
+@import url(../css/blog-website/header.css);
+@import url(../css/common/highlight.css);
+@import url(../css/blog-website/card.css);
+@import url(../css/blog-website/nestedGrid.css);
+@import url(../css/blog-website/blogboxes.css);
+@import url(../css/blog-website/grid.css);
+
+.container{
+  color: grey;
+  display:grid;
+  grid-template-columns: 850px;
+  grid-template-rows: 200px 1fr 1fr;  
+  grid-template-areas:
+  "hd"
+  "sd"
+  "main"
+  "ft";
+}
+
+.box{
+  border:1px dashed rgb(168, 137, 137);
+  background:#ebebe8;
+}
+
+/* if screen is wide enough */
+@media(min-width:900px) and (max-width:1100px){
+  .container{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px auto 1fr;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd sd main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+  }
+}
+/* Large screen*/
+@media(min-width:1101px){
+  .container{
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px auto 1fr;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd sd sd sd main main main main"
+    "ft ft ft ft ft ft ft ft";
+  }
+
+}

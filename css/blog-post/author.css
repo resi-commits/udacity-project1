@@ -1,0 +1,16 @@
+
+
+#author{
+  float: left;
+  padding: 5px;
+  width: 12%;
+  height: 12%;
+  border: 2px dotted rgb(170, 134, 134);
+  border-radius: 50%;
+}
+
+.author-info p{
+  position: relative;
+  top:18px;
+  left: 10px;
+}

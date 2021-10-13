@@ -1,0 +1,14 @@
+
+.header{
+  grid-area:hd;
+  padding: 15px;
+}
+
+.footer{
+  grid-area:ft;
+}
+
+.content{
+  grid-area:main;
+  padding: 15px;
+}

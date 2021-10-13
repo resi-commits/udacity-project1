@@ -1,0 +1,37 @@
+@import url(../css/blog-post/grid.css);
+@import url(../css/blog-post/author.css);
+@import url(../css/blog-post/figure.css);
+@import url(../css/blog-post/header.css);
+@import url(../css/blog-post/quote.css);
+@import url(../css/blog-post/button.css);
+@import url(../css/common/highlight.css);
+
+.container{
+  color: grey;
+  display:grid;
+  grid-template-columns: 850px;
+  grid-template-rows: 250px auto 1fr;  
+  grid-template-areas:
+  "hd"
+  "main"
+  "ft";
+}
+
+.box{
+  border:1px dashed rgb(168, 137, 137);
+  background:#ebebe8;
+}
+
+
+/* if screen is wide enough */
+@media(min-width:900px) {
+  .container{
+    display:grid;
+    grid-template-columns: 850px;
+    grid-template-rows: 250px auto 1fr;  
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+  }
+}

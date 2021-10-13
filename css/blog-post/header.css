@@ -1,0 +1,24 @@
+.subheader{
+  color: rgb(170, 134, 134);
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#header1{
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+#header2{
+  color: rgb(87, 11, 11);
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+#header3{
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-weight: bold;
+}

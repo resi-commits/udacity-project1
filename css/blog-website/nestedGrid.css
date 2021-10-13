@@ -1,0 +1,32 @@
+#nestedGrid{
+  display:grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 33% 33% 33%;
+  grid-gap: 5px;
+  /* border: 1px solid rgb(192, 162, 162); */
+}
+
+.photoBox{
+  width: 250px;
+  height: 150px;
+  border: 1px solid grey;
+  background: #ebebe8;
+  border-radius: 10%;
+}
+
+#one{
+  background-image: url(../../images/hiking.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#two{
+  background-image: url(../../images/yoga.jpg);
+  background-size: cover;
+}
+
+#three{
+  background-image: url(../../images/reading.jpg);
+  background-size: cover;
+}
